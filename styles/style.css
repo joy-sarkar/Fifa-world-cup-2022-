@@ -3,9 +3,11 @@
 /* top banner style start */
 .top-banner{
     height: 100vh;
+    width: 100%;
     background: #2d25a0;
     display: flex;
     position: relative;
+    margin: 0;
 }
 .log-in-btn{
     top: 20px;
