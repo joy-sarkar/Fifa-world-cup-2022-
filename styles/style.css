@@ -1,5 +1,8 @@
 /* google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+body{
+   font-family: 'Poppins', sans-serif;
+}
 /* top banner style start */
 .top-banner{
     height: 100vh;
@@ -23,15 +26,15 @@
     transform:scale(1.3) ;
 }
 .banner-info h2{
-    font-size: 64px;
+    font-size: 60px;
     color: white;
-    padding: 207px 102px 0px 156px;
+    padding: 140px 102px 0px 156px;
     margin: 0px;
 }
 /* live watch button drsign */
 .watch-live-btn{
     padding: 10px 24px;
-    bottom:110px;
+    bottom: 110px;
     left: 170px;
     position: absolute;
     background: #E02C6D;
@@ -93,9 +96,45 @@
 .right img{
     width: 567px;
     height: 427px;
-    padding-right: 156px;
     padding: 0px 156px 0px 69px ;
 }
+/* highlight styles started */
+.high-light-1{
+    display: flex;
+    margin-top: 30px;
+}
+.h-left img{
+    width: 567px;
+    height: 427px;
+    padding: 20px 0px 30px 182px;
+}
+.h-right{
+    padding-top: 40px;
+    margin-right: 210px;
+}
+.h-right h2{
+    padding-left: 40px;
+}
+.h-right p{
+    padding-left: 40px;
+}
+/* highling-2 */
+.high-light-2{
+    display: flex;
+    margin-top: 30px;
+}
+.h-left-2{
+    margin-left: 182px;
+}
+.h-right-2{
+    margin-right: 210px;
+}
+.h-right-2 img{
+    width: 567px;
+    height: 427px;
+   
+}
+
 /* footer styles */
 footer{
     display: flex;
@@ -153,6 +192,7 @@ footer{
         grid-template-columns: repeat(1,1fr);
         padding: 0px;
     }
+    /* footers styles */
     .bottom-blog{
         display: flex;
         flex-direction: column;
@@ -162,7 +202,7 @@ footer{
         padding-left: 15px;
     }
     .left p{
-        font-size: 16px;
+        font-size:16px;
         padding-left: 15px;
     }
     .watch-now-btn{
@@ -173,11 +213,186 @@ footer{
         width: 328px;
         height: 248px;
         padding-left: 16px;
+        padding-right: 0px;
         margin-top: 29px;
     }
     .top img{
         width: 125px;
         height: 29px;
         margin-top: 50px;
+    }
+    /* highlight styles start */
+    .high-light-1{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    
+    .h-left img{
+        width: 328px;
+        height: 248px;
+        padding-left: 16px;
+        padding-right: 0px;
+        margin-top: 29px;
+    }
+    .h-right{
+       width: 100%;
+    }
+    .h-right h2{
+        font-size: 30px;
+        padding-left: 15px;
+    }
+    .h-right p{
+        margin-left: 16px;
+        padding-left: 0px;
+    }
+    .high-light-2{
+        display: flex;
+        flex-direction: column;
+    }
+    .h-left-2{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .h-left-2 h2{
+        font-size: 30px;
+        padding-left: 15px;
+    }
+    .h-left-2 p{
+        margin-left: 16px;
+        padding-left: 0px;
+    }
+    .h-right-2 img{
+        width: 328px;
+        height: 248px;
+        padding-left: 16px;
+        padding-right: 0px;
+        margin-top: 29px;
+    }
+}
+/* .......................
+tablet responsive
+............ ...........*/
+@media screen and (min-width:688px) and (max-width:992px){
+    .top-banner{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        height: 100%;
+
+    }
+    .log-in-btn{
+        top: 33px;
+        right: 21px;
+        position: absolute;
+        transition: ease-in-out,1s;
+    }
+    
+.log-in-btn:hover{
+    transform:scale(1.3) ;
+}
+    .banner-info h2{
+        font-size: 40px;
+        padding: 112px 66px 0px 16px;
+    }
+    .watch-live-btn{
+       top: 32px;
+       left: 40%;
+       position: relative;
+       transition: ease-in-out,1s;
+     
+    }
+    
+.watch-live-btn:hover{
+    transform:scale(1.3) ;
+}
+    
+    .banner-image img{
+        width: 339px;
+        height: 269px;
+        padding: 80px 20px 30px 10px;
+    }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 0px;
+    }
+    
+    .bottom-blog{
+        display: flex;
+        flex-direction: column;
+    }
+    .left h2{
+        font-size: 40px;
+        padding-left: 15px;
+    }
+    .left p{
+        font-size:25px;
+        padding-left: 15px;
+    }
+    .watch-now-btn{
+        margin-left: 16px;
+       
+    }
+    .right img{
+        width: 95%;
+        height: auto;
+        padding-left: 16px;
+        padding-right: 0px;
+        margin-top: 29px;
+        padding-right: 16px;
+    }
+    .top img{
+        width: 125px;
+        height: 29px;
+        margin-top: 50px;
+    }
+    /* high-light styles start */
+    .high-light-1{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    
+    .h-left img{
+        width: 714px;
+        height: 538px;
+        padding-left: 16px;
+        padding-right: 0px;
+        margin-top: 29px;
+    }
+    .h-right{
+       width: 100%;
+    }
+    .h-right h2{
+        font-size: 40px;
+        padding-left: 15px;
+    }
+    .h-right p{
+        margin-left: 25px;
+        padding-left: 0px;
+    }
+    .high-light-2{
+        display: flex;
+        flex-direction: column;
+    }
+    .h-left-2{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .h-left-2 h2{
+        font-size: 40px;
+        padding-left: 15px;
+    }
+    .h-left-2 p{
+        margin-left: 25px;
+        padding-left: 0px;
+    }
+    .h-right-2 img{
+        width: 714px;
+        height: 538px;
+        padding-left: 16px;
+        padding-right: 0px;
+        margin-top: 29px;
     }
 }
